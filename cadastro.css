@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: #dcdcdc;
+}
+.form{
+    background-color: #696969;
+    display: flex;
+    flex-wrap: wrap ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    max-height: 50%;
+    border-radius: 5%
+}
+.fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: .50em;
+    width: 100%;
+}
+.legenda{
+    font-size: 50px;
+    text-transform: uppercase;
+} 
+.botao{
+    
+    color: rgb(255, 255, 255); 
+    font-size: 27px; 
+    line-height: 27px; 
+    padding: 13px; 
+    border-radius: 50px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid rgb(28, 110, 164); 
+    display: inline-block;
+     
+}
+.botao:hover {
+    background: #1ea41c; }
+    .botao:active {
+        background: #147531; }
+        label{
+            text-transform: uppercase;
+        }
